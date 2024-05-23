@@ -24,7 +24,7 @@ if ($result->num_rows > 0) {
 
     // 根據 table_A5 欄位值進行重定向
     if ($table_A5_status == '1') {
-        header("Location: http://localhost/tables/order/order_a5.php");
+        header("Location: http://localhost/tables/order/menu_a5.php");
         exit();
     } else if ($table_A5_status == '0') {
         header("Location: http://localhost/tables/forbidden/forbidden_a5.php");
